@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		35FE98D62ED43CFC002A14ED /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 35FE98D52ED43CF6002A14ED /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		35FE98B12ED43A6C002A14ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		35FE98A32ED43A6B002A14ED /* S25W12URLSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = S25W12URLSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FE98B02ED43A6C002A14ED /* S25W12URLSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S25W12URLSessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FE98BA2ED43A6C002A14ED /* S25W12URLSessionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S25W12URLSessionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35FE98D52ED43CF6002A14ED /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		35FE989A2ED43A6B002A14ED = {
 			isa = PBXGroup;
 			children = (
+				35FE98D52ED43CF6002A14ED /* .gitignore */,
 				35FE98A52ED43A6B002A14ED /* S25W12URLSession */,
 				35FE98B32ED43A6C002A14ED /* S25W12URLSessionTests */,
 				35FE98BD2ED43A6C002A14ED /* S25W12URLSessionUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35FE98D62ED43CFC002A14ED /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
